@@ -294,40 +294,6 @@ header a {color: inherit;}
 	align-self: flex-end;
 }
 
-/*menuページ
----------------------------------------------------------------------------*/
-/*ボックス１個あたりの設定*/
-.list {
-	position: relative;
-	float: left;	/*左に回り込み*/
-	width: 33.3%;	/*幅*/
-}
-/*画像*/
-.list img {
-	transition: 1s;
-	opacity: 0.5;	/*50%の透明度にする*/
-}
-/*画像（マウスオン時）*/
-.list:hover img {
-	opacity: 1;	/*マウスオン時に100%色を出す*/
-}
-/*photoボックス内の段落(p)タグ*/
-.list p {
-	display: none;	/*非表示にしておく設定*/
-	padding: 5px 0 !important;	/*上下、左右への段落タグ内の余白*/
-	position: absolute;
-	bottom: 0px;	/*listボックスの下から0pxの場所に配置*/
-	width: 100%;	/*幅*/
-	background: #111;	/*背景色（古いブラウザ用）*/
-	background: rgba(0,0,0,0.5);	/*背景色。0,0,0は黒の事で0.5は50%色がついた状態のこと*/
-	color: #fff;		/*文字色*/
-	text-align: center;	/*文字をセンタリング*/
-	font-size: 80%;		/*文字サイズ*/
-}
-/*マウスオン時の段落タグ*/
-.list:hover p {
-	display: block;	/*非表示から表示に切り替える*/
-}
 
 /*コンテンツ
 ---------------------------------------------------------------------------*/
@@ -489,12 +455,11 @@ main h2.c {
 	font-size: 0.7em;		/*文字サイズを70%*/
 }
 
-/*ボックス内のp要素
+/*ボックス内のp要素*/
 .list-grid7 .list p {
 	font-size: 0.85rem;	/*文字サイズを85%に*/
 	line-height: 1.5;	/*行間を少し狭く*/
 }
-*/
 
 /*ボックス内のfigure画像*/
 .list-grid7 .list figure {
