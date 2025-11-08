@@ -14,8 +14,8 @@
 
 /*テンプレート専用cssファイルの読み込み
 ---------------------------------------------------------------------------*/
-@import url("inview.css");
-/*@import url("mainimg.css");*/
+/*@import url("inview.css");*/
+@import url("mainimg.css");
 
 
 /*CSSカスタムプロパティ（サイト全体を一括管理する為の設定）
